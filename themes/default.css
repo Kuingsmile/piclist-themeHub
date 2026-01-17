@@ -15,7 +15,7 @@
   --color-primary-hover: #818cf8 !important;
   --color-accent: #0a84ff !important;
   --color-accent-hover: #409cff !important;
-  --accent-rgb: #449af7 !important;
+  --accent-rgb: 68 154 247 !important;
   --color-blue-common: #409eff !important;
   --color-light-blue: rgb(0 122 255 / 5%) !important;
   --color-success: #34c759 !important;
@@ -40,7 +40,7 @@
   --color-primary-hover: #4f46e5 !important;
   --color-accent: #007aff !important;
   --color-accent-hover: #3b82f6 !important;
-  --accent-rgb: #449af7 !important;
+  --accent-rgb: 68 154 247 !important;
   --color-blue-common: #409eff !important;
   --color-light-blue: rgb(0 122 255 / 5%) !important;
   --color-success: #34c759 !important;
