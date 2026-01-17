@@ -7,22 +7,22 @@
   --color-background-primary: #000000 !important;
   --color-background-secondary: #1c1c1e !important;
   --color-background-tertiary: #2c2c2e !important;
-  --color-surface: rgb(28 28 30 / 80%) !important;
-  --color-surface-elevated: rgb(44 44 46 / 95%) !important;
-  --color-border: rgb(255 255 255 / 10%) !important;
-  --color-border-secondary: rgb(255 255 255 / 5%) !important;
+  --color-surface: #1c1c1ecc !important;
+  --color-surface-elevated: #2c2c2ef2 !important;
+  --color-border: #ffffff1a !important;
+  --color-border-secondary: #ffffff0d !important;
   --color-primary: #6366f1 !important;
   --color-primary-hover: #818cf8 !important;
   --color-accent: #0a84ff !important;
   --color-accent-hover: #409cff !important;
-  --accent-rgb: 68 154 247 !important;
-  --color-blue-common: #409eff !important;
-  --color-light-blue: rgb(0 122 255 / 5%) !important;
   --color-success: #34c759 !important;
   --color-warning: #f1930f !important;
   --color-danger: #ff3b30 !important;
   --color-error: #cb2431 !important;
-  --color-error-surface: rgb(255 59 48 / 10%) !important;
+  --shadow-sm: 0 1px 3px #0000000a, 0 1px 2px #0000000f;
+  --shadow-md: 0 4px 6px #0000000d, 0 2px 4px #0000000f;
+  --shadow-lg: 0 10px 15px #00000014, 0 4px 6px #0000000d;
+  --shadow-xl: 0 20px 25px #0000001a, 0 10px 10px #0000000a;
 }
 
 .light, [data-theme="light"] {
@@ -32,20 +32,20 @@
   --color-background-primary: #ffffff !important;
   --color-background-secondary: #f5f5f7 !important;
   --color-background-tertiary: #fbfbfd !important;
-  --color-surface: rgb(255 255 255 / 80%) !important;
-  --color-surface-elevated: rgb(255 255 255 / 95%) !important;
-  --color-border: rgb(0 0 0 / 10%) !important;
-  --color-border-secondary: rgb(0 0 0 / 5%) !important;
+  --color-surface: #ffffffcc !important;
+  --color-surface-elevated: #fffffff2 !important;
+  --color-border: #0000001a !important;
+  --color-border-secondary: #0000000d !important;
   --color-primary: #6366f1 !important;
   --color-primary-hover: #4f46e5 !important;
   --color-accent: #007aff !important;
   --color-accent-hover: #3b82f6 !important;
-  --accent-rgb: 68 154 247 !important;
-  --color-blue-common: #409eff !important;
-  --color-light-blue: rgb(0 122 255 / 5%) !important;
   --color-success: #34c759 !important;
   --color-warning: #f1930f !important;
   --color-danger: #ff3b30 !important;
   --color-error: #cb2431 !important;
-  --color-error-surface: rgb(255 59 48 / 10%) !important;
+  --shadow-sm: 0 1px 3px #0000000a, 0 1px 2px #0000000f;
+  --shadow-md: 0 4px 6px #0000000d, 0 2px 4px #0000000f;
+  --shadow-lg: 0 10px 15px #00000014, 0 4px 6px #0000000d;
+  --shadow-xl: 0 20px 25px #0000001a, 0 10px 10px #0000000a;
 }

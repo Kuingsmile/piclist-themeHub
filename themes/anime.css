@@ -11,21 +11,25 @@
   --color-background-secondary: transparent !important;
   --color-background-tertiary: #3b2430 !important;
   --color-surface: #4f3d47cd !important;
-  --color-surface-elevated: rgb(220 220 220 / 50%) !important;
+  --color-surface-elevated: #dcdcdc80 !important;
   --color-border: #6d4c5e !important;
   --color-border-secondary: #efd0d671 !important;
   --color-primary: #ffb7c5 !important;
   --color-primary-hover: #ffcfd8 !important;
   --color-accent: #23ade0 !important;
   --color-accent-hover: #0c9bcb !important;
-  --accent-rgb: 255, 183, 197 !important;
-  --color-blue-common: #a0e6ff !important;
-  --color-light-blue: rgb(160 230 255 / 10%) !important;
   --color-success: #98e8b1 !important;
   --color-warning: #ffe69c !important;
   --color-danger: #ff99aa !important;
   --color-error: #ff99aa !important;
-  --color-error-surface: rgb(255 153 170 / 10%) !important;
+  --shadow-sm: 0 1px 2px #140a0f99,
+               0 1px 3px #0000004d;
+  --shadow-md: 0 4px 8px #140a0f80,
+               0 2px 4px #ffb7c51a;
+  --shadow-lg: 0 12px 24px #0f050a99, 
+               0 8px 16px #3b243066;
+  --shadow-xl: 0 20px 40px #0a0005b3,
+               0 15px 25px #0000004d);
 }
 
 .light, [data-theme="light"] {
@@ -38,20 +42,24 @@
   --color-background-primary: transparent !important;
   --color-background-secondary: transparent !important;
   --color-background-tertiary: #f3e1e1 !important;
-  --color-surface: rgb(255 255 255 / 60%) !important;
-  --color-surface-elevated: rgb(255 255 255 / 90%) !important;
+  --color-surface: #ffffff99 !important;
+  --color-surface-elevated: #ffffffe6 !important;
   --color-border: #f8c2d6 !important;
-  --color-border-secondary: rgb(248 194 214 / 50%) !important;
+  --color-border-secondary: #f8c2d680 !important;
   --color-primary: #ff85a2 !important;
   --color-primary-hover: #ff6085 !important;
   --color-accent: #60c3eb !important;
   --color-accent-hover: #3daade !important;
-  --accent-rgb: 255, 133, 162 !important;
-  --color-blue-common: #60c3eb !important;
-  --color-light-blue: rgb(96 195 235 / 10%) !important;
   --color-success: #55c97b !important;
   --color-warning: #ffcf5c !important;
   --color-danger: #ff6b85 !important;
   --color-error: #ff6b85 !important;
-  --color-error-surface: rgb(255 107 133 / 10%) !important;
+  --shadow-sm: 0 1px 2px #8c607526,
+               0 1px 1px #f8c2d61a;
+  --shadow-md: 0 4px 10px #8c60751f,
+               0 2px 4px #f8c2d633;
+  --shadow-lg: 0 10px 25px #8c607526,
+               0 5px 10px #f8c2d61a;
+  --shadow-xl: 0 20px 40px #8c60752e,
+               0 10px 20px #f8c2d626;
 }

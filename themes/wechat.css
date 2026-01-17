@@ -7,22 +7,22 @@
   --color-background-primary: #191919 !important;
   --color-background-secondary: #242424 !important;
   --color-background-tertiary: #111111 !important;
-  --color-surface: rgb(36 36 36 / 90%) !important;
-  --color-surface-elevated: rgb(42 42 42 / 95%) !important;
+  --color-surface: #242424e6 !important;
+  --color-surface-elevated: #2a2a2af2 !important;
   --color-border: #333333 !important;
-  --color-border-secondary: rgb(51 51 51 / 50%) !important;
+  --color-border-secondary: #33333380 !important;
   --color-primary: #07c160 !important;
   --color-primary-hover: #06ad56 !important;
   --color-accent: #07c160 !important;
   --color-accent-hover: #06ad56 !important;
-  --accent-rgb: 7, 193, 96 !important;
-  --color-blue-common: #07c160 !important;
-  --color-light-blue: rgb(7 193 96 / 10%) !important;
   --color-success: #07c160 !important;
   --color-warning: #ffbe00 !important;
   --color-danger: #fa5151 !important;
   --color-error: #fa5151 !important;
-  --color-error-surface: rgb(250 81 81 / 10%) !important;
+  --shadow-sm: 0 1px 2px #00000080;
+  --shadow-md: 0 4px 12px #000000a6, 0 2px 4px #00000080;
+  --shadow-lg: 0 12px 24px #000000cc, 0 8px 16px #000000a6;
+  --shadow-xl: 0 20px 48px #000000e6, 0 10px 24px #000000cc;
 }
 
 .light, [data-theme="light"] {
@@ -32,20 +32,20 @@
   --color-background-primary: #f5f5f5 !important;
   --color-background-secondary: #eaeaea !important;
   --color-background-tertiary: #ffffff !important;
-  --color-surface: rgb(255 255 255 / 90%) !important;
-  --color-surface-elevated: rgb(255 255 255 / 100%) !important;
+  --color-surface: #ffffffe6 !important;
+  --color-surface-elevated: #ffffffff !important;
   --color-border: #d6d6d6 !important;
-  --color-border-secondary: rgb(214 214 214 / 50%) !important;
+  --color-border-secondary: #d6d6d680 !important;
   --color-primary: #07c160 !important;
   --color-primary-hover: #06ad56 !important;
   --color-accent: #07c160 !important;
   --color-accent-hover: #06ad56 !important;
-  --accent-rgb: 7, 193, 96 !important;
-  --color-blue-common: #07c160 !important;
-  --color-light-blue: rgb(7 193 96 / 10%) !important;
   --color-success: #07c160 !important;
   --color-warning: #ffbe00 !important;
   --color-danger: #fa5151 !important;
   --color-error: #fa5151 !important;
-  --color-error-surface: rgb(250 81 81 / 10%) !important;
+  --shadow-sm: 0 1px 3px #0000000d, 0 1px 2px #00000005;
+  --shadow-md: 0 4px 12px #0000000f, 0 2px 6px #0000000a;
+  --shadow-lg: 0 8px 24px #00000014, 0 4px 12px #0000000f;
+  --shadow-xl: 0 12px 32px #0000001a, 0 8px 16px #00000014;
 }
