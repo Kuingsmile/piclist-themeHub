@@ -20,7 +20,9 @@ PicList 是一款开源的图片管理软件，支持本地和云端图片的浏
 /* 主题名 */
 
 /* 浅色 */
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --background-image: url("http://xxx.com/img.png") !important;
   --background-image-opacity: 0.7 !important;
   --background-blur: 5px !important;
@@ -33,7 +35,9 @@ PicList 是一款开源的图片管理软件，支持本地和云端图片的浏
 }
 
 /* 深色 */
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --background-image: url("http://xxx.com/img.png") !important;
   --background-image-opacity: 0.7 !important;
   --background-blur: 5px !important;

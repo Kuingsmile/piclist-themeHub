@@ -1,6 +1,8 @@
 /* Cupertino */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #ffffff !important;
   --color-text-secondary: #ebebf5 !important;
   --color-text-tertiary: #ebebf5 !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 25px 60px #000000b3, 0 15px 30px #00000080;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #000000 !important;
   --color-text-secondary: #3c3c43 !important;
   --color-text-tertiary: #3c3c43 !important;

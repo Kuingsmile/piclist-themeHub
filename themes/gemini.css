@@ -1,6 +1,8 @@
 /* Gemini */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #e3e3e3 !important;
   --color-text-secondary: #c4c7c5 !important;
   --color-text-tertiary: #8ab4f8 !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 24px 48px #000000e6, 0 12px 24px #000000b3;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #1f1f1f !important;
   --color-text-secondary: #444746 !important;
   --color-text-tertiary: #1a73e8 !important;

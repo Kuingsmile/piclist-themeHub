@@ -1,6 +1,8 @@
 /* 极夜紫 */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #e9e5f3 !important;
   --color-text-secondary: #b9adc7 !important;
   --color-text-tertiary: #d2a8ff !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 24px 56px #050308f2, 0 12px 28px #000000cc;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #2d263d !important;
   --color-text-secondary: #60527a !important;
   --color-text-tertiary: #8e44ad !important;

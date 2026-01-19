@@ -1,6 +1,8 @@
 /* Adwaita */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #eeeeec !important;
   --color-text-secondary: #9a9996 !important;
   --color-text-tertiary: #77767b !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 24px 48px #00000099, 0 12px 24px #00000066;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #2e3436 !important;
   --color-text-secondary: #5e5c64 !important;
   --color-text-tertiary: #9a9996 !important;

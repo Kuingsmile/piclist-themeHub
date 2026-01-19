@@ -1,6 +1,8 @@
 /* Catppuccin */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #cdd6f4 !important;
   --color-text-secondary: #a6adc8 !important;
   --color-text-tertiary: #a6adc8 !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 20px 50px #030305e6, 0 10px 25px #09090d99;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #4c4f69 !important;
   --color-text-secondary: #5c5f77 !important;
   --color-text-tertiary: #6c6f85 !important;

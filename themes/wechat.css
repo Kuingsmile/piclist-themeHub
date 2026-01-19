@@ -1,6 +1,8 @@
 /* 微信 */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #ffffff !important;
   --color-text-secondary: #7d7d7d !important;
   --color-text-tertiary: #4c4c4c !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 20px 48px #000000e6, 0 10px 24px #000000cc;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #000000 !important;
   --color-text-secondary: #b2b2b2 !important;
   --color-text-tertiary: #999999 !important;

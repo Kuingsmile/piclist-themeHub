@@ -1,6 +1,8 @@
 /* Windows 11 */
 
-.dark, [data-theme="dark"] {
+:root.dark,
+.dark,
+[data-theme='dark'] {
   --color-text-primary: #ffffff !important;
   --color-text-secondary: #cccccc !important;
   --color-text-tertiary: #999999 !important;
@@ -25,7 +27,9 @@
   --shadow-xl: 0 28px 56px #000000cc, 0 10px 20px #00000099;
 }
 
-.light, [data-theme="light"] {
+:root,
+.light,
+[data-theme='light'] {
   --color-text-primary: #000000 !important;
   --color-text-secondary: #5d5d5d !important;
   --color-text-tertiary: #767676 !important;
