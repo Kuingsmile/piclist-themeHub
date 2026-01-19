@@ -3,7 +3,7 @@
 :root.dark,
 .dark,
 [data-theme='dark'] {
-  --background-image: url("./image/anime-dark.webp") !important;
+  --background-image: url("theme://./image/anime-dark.webp") !important;
   --background-image-opacity: 0.7 !important;
   --background-blur: 5px !important;
   --color-text-primary: #f2cee2 !important;
@@ -28,7 +28,7 @@
                0 1px 3px #0000004d;
   --shadow-md: 0 4px 8px #140a0f80,
                0 2px 4px #ffb7c51a;
-  --shadow-lg: 0 12px 24px #0f050a99, 
+  --shadow-lg: 0 12px 24px #0f050a99,
                0 8px 16px #3b243066;
   --shadow-xl: 0 20px 40px #0a0005b3,
                0 15px 25px #0000004d);
@@ -37,7 +37,7 @@
 :root,
 .light,
 [data-theme='light'] {
-  --background-image: url("./image/anime-light.webp") !important;
+  --background-image: url("theme://./image/anime-light.webp") !important;
   --background-image-opacity: 0.7 !important;
   --background-blur: 5px !important;
   --color-text-primary: #5c3a49 !important;
