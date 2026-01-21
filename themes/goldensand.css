@@ -1,0 +1,55 @@
+/* GoldenSand */
+
+:root.dark,
+.dark,
+[data-theme='dark'] {
+  --color-text-primary: #fff8e7 !important;
+  --color-text-secondary: #e6d4b3 !important;
+  --color-text-tertiary: #d4b896 !important;
+  --color-background-primary: #1a1510 !important;
+  --color-background-secondary: #2a1f16 !important;
+  --color-background-tertiary: #3a2b1e !important;
+  --color-surface: rgb(42 31 22 / 90%) !important;
+  --color-surface-elevated: rgb(58 43 30 / 95%) !important;
+  --color-border: #564429 !important;
+  --color-border-secondary: rgb(86 68 41 / 50%) !important;
+  --color-primary: linear-gradient(135deg, #f4a460, #daa520, #ffd700) !important;
+  --color-primary-hover: linear-gradient(135deg, #ffb76b, #edb532, #ffe14d) !important;
+  --color-accent: #ffa500 !important;
+  --color-accent-hover: #ffb84d !important;
+  --color-success: #90ee90 !important;
+  --color-warning: #ffb347 !important;
+  --color-danger: #ff6b6b !important;
+  --color-error: #ff4444 !important;
+  --shadow-sm: 0 2px 4px #0a070599;
+  --shadow-md: 0 6px 16px #0a0705cc, 0 2px 6px #0000004d;
+  --shadow-lg: 0 16px 32px #0a0705e6, 0 8px 16px #0a0705b3;
+  --shadow-xl: 0 24px 56px #0a0705f2, 0 12px 28px #000000cc;
+}
+
+:root,
+.light,
+[data-theme='light'] {
+  --color-text-primary: #3e2a1a !important;
+  --color-text-secondary: #705e4f !important;
+  --color-text-tertiary: #8b7355 !important;
+  --color-background-primary: #fffef9 !important;
+  --color-background-secondary: #fef8e7 !important;
+  --color-background-tertiary: #fff4d6 !important;
+  --color-surface: rgb(255 254 249 / 90%) !important;
+  --color-surface-elevated: rgb(254 248 231 / 100%) !important;
+  --color-border: #e8dcc4 !important;
+  --color-border-secondary: rgb(232 220 196 / 50%) !important;
+  --color-primary: linear-gradient(90deg, #daa520, #f4a460, #ffdb58) !important;
+  --color-primary-hover: linear-gradient(90deg, #c8941d, #e09350, #f0cf4d) !important;
+  --color-accent: #ff8c42 !important;
+  --color-accent-hover: #ff7028 !important;
+  --color-success: #66bb6a !important;
+  --color-warning: #ffa726 !important;
+  --color-danger: #ef5350 !important;
+  --color-error: #e53935 !important;
+  --shadow-sm: 0 1px 3px #3e2a1a14, 0 1px 2px #3e2a1a0d;
+  --shadow-md: 0 4px 12px #3e2a1a1f, 0 2px 6px #3e2a1a14;
+  --shadow-lg: 0 12px 30px #3e2a1a26, 0 8px 16px #3e2a1a1a;
+  --shadow-xl: 0 20px 50px #3e2a1a33, 0 10px 25px #3e2a1a1f;
+}
