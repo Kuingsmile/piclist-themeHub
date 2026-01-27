@@ -27,7 +27,7 @@
   --shadow-xl: 0 24px 48px #000000cc, 0 12px 24px #00000099;
 }
 
-.:root,
+:root,
 .light,
 [data-theme='light'] {
   --color-text-primary: #1d1d1f !important;
